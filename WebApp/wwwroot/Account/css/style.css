@@ -1,0 +1,67 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background-image: url('https://img.freepik.com/free-photo/blue-surface-with-study-tools_23-2147864592.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+form {
+    margin: 20px auto;
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: left; 
+}
+
+label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+    width: 100%;
+}
+a {
+    color: #0056b3 ;
+}
+    a:hover {
+        color: #fff;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.order-item {
+    margin-bottom: 15px;
+}

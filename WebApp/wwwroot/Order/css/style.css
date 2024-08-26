@@ -1,0 +1,98 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background-image: url('https://img.freepik.com/free-photo/blue-background-summer-time-composition-space-text_185193-110215.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#orderDetails {
+    margin-bottom: 20px;
+}
+
+.order-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+    .order-item input {
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+#ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    #ordersTable th, #ordersTable td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    #ordersTable th {
+        background-color: #f2f2f2;
+    }
+
+.delete-options {
+    display: none;
+    margin-top: 5px;
+}
+
+
+    .delete-options button {
+        background-color: #f44336;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+        .delete-options button:hover {
+            background-color: #d32f2f;
+        }

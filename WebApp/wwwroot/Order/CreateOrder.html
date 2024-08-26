@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Order</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Create Order</h2>
+    <form id="orderForm">
+        <div id="orderDetails">
+            <div class="order-item">
+                <input type="text" placeholder="Product Name" class="productName" required>
+                <input type="number" placeholder="Quantity" class="quantity" required>
+                <input type="number" placeholder="Price" class="price" required>
+            </div>
+        </div>
+        <button type="button" onclick="addOrderItem()">Add Another Item</button>
+        <button type="button" onclick="createOrder()">Create Order</button>
+    </form>
+    &nbsp;
+    <h2>Your Orders</h2>
+    <table id="ordersTable">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
